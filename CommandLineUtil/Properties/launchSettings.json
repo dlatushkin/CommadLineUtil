@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CommadLineUtil": {
+      "commandName": "Project",
+      "commandLineArgs": "commandtwo -p \"c:\" -d true"
+    }
+  }
+}

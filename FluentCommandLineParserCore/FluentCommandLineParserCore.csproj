@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Internals\Errors\" />
+    <Folder Include="Internals\Extesions\" />
+    <Folder Include="Internals\Validators\" />
+    <Folder Include="Internals\Parsing\" />
+  </ItemGroup>
+
+</Project>
