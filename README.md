@@ -29,7 +29,7 @@ The project is used to
 
 # How to compile
 ## Windows
-* Install [.NET Core 2.2](https://dotnet.microsoft.com/download/dotnet-core/2.2) for Windows
+* Install [.NET Core 2.2](https://dotnet.microsoft.com/download/dotnet-core/2.2) for Windows (The application has been tested on Windows 10).
 * Download the source code from the repository
   `git clone https://github.com/dlatushkin/CommadLineUtil.git CommandLineUtil`
 * Navigate to local repository directory
