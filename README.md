@@ -38,7 +38,7 @@ The project is used to
 * Try utility [(see samples)](#Usage-samples)
 
 ## Linux
-* Follow the instructions [here](https://dotnet.microsoft.com/download/linux-package-manager/rhel/sdk-2.2.100) for appropriate linux distribution (The application has been tested on Ubuntu 18.0.4 LTS).
+* Install [.NET Core 2.2](https://dotnet.microsoft.com/download/linux-package-manager/rhel/sdk-2.2.100) for appropriate linux distribution (The application has been tested on Ubuntu 18.0.4 LTS).
 * Download the source code from the repository
   `sudo git clone https://github.com/dlatushkin/CommadLineUtil.git CommandLineUtil`
 * Navigate to local repository directory
@@ -47,7 +47,7 @@ The project is used to
 * Try utility [(see samples)](#Usage-samples)
 
 ## Mac OS
-* Install [.NET Core 2.2](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.100-macos-x64-installer) for MacOS.
+* Install [.NET Core 2.2](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.100-macos-x64-installer) for MacOS (The application has been tested on MacOS 10.14 Mojave).
 * Download the source code from the repository
   `git clone https://github.com/dlatushkin/CommadLineUtil.git CommandLineUtil`
 * Navigate to local repository directory
@@ -69,4 +69,3 @@ The project is used to
 #### Run commandtwo with parameters specified
 * `dotnet CommandLineUtil.dll commandtwo --path ".." --include-dir`
 * `dotnet CommandLineUtil.dll commandtwo -p ".." -d`
-  
