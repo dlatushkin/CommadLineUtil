@@ -3,20 +3,20 @@ There are 3 projects in the solution
 ## CommadLineUtil
 Represents entry point console .NET Core application.
 [Program.cs](./CommadLineUtil/Program.cs) contains code to configure command line parser and run commands/show help.
-Two commands are configured
+Two commands and their agruments are configured
 * [CommandOne](./CommandLineUtil.Command/CommandOne.cs)
 * [CommandTwo](./CommandLineUtil.Command/CommandTwo.cs)
 
 ## CommandLineUtil.Command
 Represents .NET Core library for command implementation.
 There are 2 commands here:
-### [CommandOne](./CommandLineUtil.Command/CommandOne.cs)
+#### [CommandOne](./CommandLineUtil.Command/CommandOne.cs)
 prints out desired message ("hello world" if no message is explicitelly provided as argument)
-### [CommandOneArguments](./CommandLineUtil.Command/CommandOneArguments.cs)
+#### [CommandOneArguments](./CommandLineUtil.Command/CommandOneArguments.cs)
 defines [CommandOne](./CommandLineUtil.Command/CommandOne.cs) command srguments
-### [CommandTwo](./CommandLineUtil.Command/CommandTwo.cs)
+#### [CommandTwo](./CommandLineUtil.Command/CommandTwo.cs)
 lists the files/folders in the desired directory (current directory by default)
-### [CommandTwoArguments](./CommandLineUtil.Command/CommandTwoArguments.cs)
+#### [CommandTwoArguments](./CommandLineUtil.Command/CommandTwoArguments.cs)
 defines [CommandTwo](./CommandLineUtil.Command/CommandTwo.cs) command srguments
 
 ## FluentCommandLineParserCore
@@ -30,9 +30,12 @@ The project is used to
 # How to compile
 ## Windows
 * Install [.NET Core 2.2](https://dotnet.microsoft.com/download/dotnet-core/2.2) for Windows
-* Download the source code from the repository.
+* Download the source code from the repository
+  `git clone https://github.com/dlatushkin/CommadLineUtil.git CommandLineUtil`
 * Navigate to local repository directory
-* Run `dotnet build`
+* Run `dotnet publish -o "../CommandLineUtilPublish"`
+* Navigate to CommandLineUtilPublish folder
+* Try utility [(see samples)](#Usage-samples)
 
 ## Linux
 * Follow the instructions [here](https://dotnet.microsoft.com/download/linux-package-manager/rhel/sdk-2.2.100) for appropriate linux distribution (The application has been tested on Ubuntu 18.0.4 LTS).
@@ -44,11 +47,13 @@ The project is used to
 * Try utility [(see samples)](#Usage-samples)
 
 ## Mac OS
-Follow instruction [here](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.100-macos-x64-installer).
-* Download the source code from the repository.
+* Install [.NET Core 2.2](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.100-macos-x64-installer) for MacOS.
+* Download the source code from the repository
+  `git clone https://github.com/dlatushkin/CommadLineUtil.git CommandLineUtil`
 * Navigate to local repository directory
-* run `dotnet build`
-
+* Run `dotnet publish -o "../CommandLineUtilPublish"`
+* Navigate to CommandLineUtilPublish folder
+* Try utility [(see samples)](#Usage-samples)
 
 # Usage samples
 #### Show help
